@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Favicon -->
+	<link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
+ 	<link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+ 	<!-- Bootstrap CSS -->
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">
+ 	<!-- CSS Styles -->
+ 	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="delivery-header" id="header">
+		<div class="side-nav">
+				<div class="side-nav__logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="food">
+					</a>
+					<button class="side-nav__open-menu md-trigger">
+						<svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.333252 1.99165C0.333252 1.07498 1.07659 0.333313 1.99159 0.333313H15.3416C15.7814 0.333313 16.2032 0.508029 16.5142 0.819027C16.8252 1.13003 16.9999 1.55183 16.9999 1.99165C16.9999 2.43146 16.8252 2.85327 16.5142 3.16427C16.2032 3.47526 15.7814 3.64998 15.3416 3.64998H1.99159C1.55177 3.64998 1.12996 3.47526 0.818967 3.16427C0.507969 2.85327 0.333252 2.43146 0.333252 1.99165ZM0.333252 12C0.333252 11.0833 1.07659 10.3416 1.99159 10.3416H32.0082C32.4481 10.3416 32.8699 10.5164 33.1809 10.8274C33.4919 11.1384 33.6666 11.5602 33.6666 12C33.6666 12.4398 33.4919 12.8616 33.1809 13.1726C32.8699 13.4836 32.4481 13.6583 32.0082 13.6583H1.99159C1.55177 13.6583 1.12996 13.4836 0.818967 13.1726C0.507969 12.8616 0.333252 12.4398 0.333252 12ZM1.99159 20.35C1.55177 20.35 1.12996 20.5247 0.818967 20.8357C0.507969 21.1467 0.333252 21.5685 0.333252 22.0083C0.333252 22.4481 0.507969 22.8699 0.818967 23.1809C1.12996 23.4919 1.55177 23.6666 1.99159 23.6666H22.0083C22.4481 23.6666 22.8699 23.4919 23.1809 23.1809C23.4919 22.8699 23.6666 22.4481 23.6666 22.0083C23.6666 21.5685 23.4919 21.1467 23.1809 20.8357C22.8699 20.5247 22.4481 20.35 22.0083 20.35H1.99159Z" fill="#B59571"/>
+</svg>
+
+					</button>
+				</div>
+				<div class="side-nav__socials">
+					<a href="#" class="YouTube">
+						<i class="fa-brands fa-youtube"></i>
+					</a>
+					<a href="#" class="VK">
+						<i class="fa-brands fa-vk"></i>
+					</a>
+					<a href="#" class="Telegram">
+						<i class="fa-brands fa-telegram"></i>
+					</a>
+				</div>
+			</div>
+		<div class="container">
+			<div class="navigation">
+				<div class="account">
+					<div class="dropdown">
+					  <button class="dropbtn">Разделы</button>
+					  <div id="myDropdown" class="dropdown-content">
+					    <a href="#" class="delivery__item active" data-link="food-1">Завтраки </a>
+						<a href="#" class="delivery__item" data-link="food-2">Raw</a>
+						<a href="#" class="delivery__item" data-link="food-3">Холодные закуски</a>
+						<a href="#" class="delivery__item" data-link="food-4">Брускетты </a>
+						<a href="#" class="delivery__item" data-link="food-5">К вину </a>
+						<a href="#" class="delivery__item" data-link="food-6">Салаты</a>
+						<a href="#" class="delivery__item" data-link="food-7">Супы</a>
+						<a href="#" class="delivery__item" data-link="food-8">Паста и ризотто </a>
+						<a href="#" class="delivery__item" data-link="food-9">Мясо</a>
+						<a href="#" class="delivery__item" data-link="food-10">Рыба </a>
+						<a href="#" class="delivery__item" data-link="food-11">Grill </a>
+						<a href="#" class="delivery__item" data-link="food-12">Мангал </a>
+						<a href="#" class="delivery__item" data-link="food-13">Гарниры</a>
+					  </div>
+					</div>
+
+					<span>Личный кабинет</span>
+					<a href="#" class="user-account"><i class="fa-solid fa-user"></i></a>
+					<a href="#" class="user-shop"><i class="fa-solid fa-basket-shopping"></i></a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<section class="delivery__catalog">
+	<div class="container">
+				<div class="delivery__menu">
+					<a href="#" class="delivery__item active" data-link="food-1">Завтраки </a>
+					<a href="#" class="delivery__item" data-link="food-2">Raw</a>
+					<a href="#" class="delivery__item" data-link="food-3">Холодные закуски</a>
+					<a href="#" class="delivery__item" data-link="food-4">Брускетты </a>
+					<a href="#" class="delivery__item" data-link="food-5">К вину </a>
+					<a href="#" class="delivery__item" data-link="food-6">Салаты</a>
+					<a href="#" class="delivery__item" data-link="food-7">Супы</a>
+					<a href="#" class="delivery__item" data-link="food-8">Паста и ризотто </a>
+					<a href="#" class="delivery__item" data-link="food-9">Мясо</a>
+					<a href="#" class="delivery__item" data-link="food-10">Рыба </a>
+					<a href="#" class="delivery__item" data-link="food-11">Grill </a>
+					<a href="#" class="delivery__item" data-link="food-12">Мангал </a>
+					<a href="#" class="delivery__item" data-link="food-13">Гарниры</a>
+				</div>
+				<div class="menu-list">
+					<div class="food menu-list-active" id="food-1" data-link="food-1">
+						<!-- <div class="menu-row"> -->
+							<div class="menu-list__item">
+								<a href="dish1.html">
+									<img src="img/Rectangle 57.png" alt="yummy" class="menu-dish">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+						<!-- </div> -->
+						<!-- <div class="menu-row"> -->
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+						<!-- </div> -->
+						<!-- <div class="menu-row"> -->
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="menu-list__item">
+								<a href="#">
+									<img src="img/Rectangle 57.png" alt="yummy">
+								</a>
+								<div class="menu-list__info">
+									<p>Яичница-глазунья из трех яиц</p>
+									<div class="buy">
+										<span class="price">
+											250 ₽
+										</span>
+										<button class="btn delivery-buy__btn">
+											В корзину
+										</button>
+									</div>
+								</div>
+							</div>
+						<!-- </div> -->
+					</div>
+					<div class="food" id="food-2" data-link="food-2">
+						Вкусни
+					</div>
+					<div class="food" id="food-3" data-link="food-3">
+						Другие вкусни
+					</div>
+					<div class="food" id="food-4" data-link="food-4">
+						Четвертые вкусни
+					</div>
+					<div class="food" id="food-5" data-link="food-5">
+						Ещё одни вкусни
+					</div>
+					<div class="food" id="food-6" data-link="food-6">
+						Много вкусней
+					</div>
+					<div class="food" id="food-7" data-link="food-7">
+						Больше вкусней можно получить, если...
+					</div>
+				</div>
+	</div>
+</section>
+	
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<div class="main__section">
+				<div class="main__header">
+					контакты
+				</div>
+				<div class="main__map-content">
+					<div class="main__info">
+						<div class="row">
+							<div class="main__item">
+								<div class="time">
+									<span class="number">
+										2
+									</span> мин
+								</div>
+								<div class="from">
+									из центра<br>Санкт-Петербурга
+								</div>
+							</div>
+							<div class="main__item">
+								<div class="time">
+									<span class="number">
+										12
+									</span> мин
+								</div>
+								<div class="from">
+									из города<br>Зеленогорск
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="main__item">
+								<div class="time">
+									<span class="number">
+										42
+									</span>
+									 мин
+								</div>
+								<div class="from">
+									из аэропорта<br>Пулково
+								</div>
+							</div>
+							<div class="main__item">
+								<div class="time">
+									<span class="number">
+										52
+									</span>
+									 мин
+								</div>
+								<div class="from">
+									из города<br>Павловск
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+					<div class="main__adress">
+						<div class="map">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae339326fe956a153005536af75c09ba8f13290b6ba5da8dc9819a4b246f40b3b&amp;width=748&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+						</div>
+						<div class="sign">
+							<p>
+								<i class="fa-solid fa-location-dot"></i> Санкт-Петербург, Северная дорога, 11 
+							</p>
+							<p>
+								<a href="tel:79217777777"><i class="fa-solid fa-phone"></i> +7 (921) 777-77-77</a>
+							</p>
+							<div class="schedule">
+								<p>
+									<span>
+										Время работы
+									</span>
+									
+								</p>
+								<p>
+									<span>
+										Вск-Чт
+									</span>
+									с 12:00 до 23:00
+								</p>
+								<p>
+									<span>
+										Пт-Сб
+									</span>
+									с 12:00 до 23:00
+								</p>
+							</div>
+							<div class="map-buttons">
+								<button class="btn btn-map btn-reserv sign-first-btn">
+									Бронь столика
+								</button>
+								<button class="btn btn-map btn-question sign-sec-btn">
+									Задать вопрос
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer delivery__footer">
+		<div class="container">
+			<div class="footer__info">
+				<img src="img/logo.png" alt="food">
+				<div class="policy">
+					Политика конфиденциальности
+				</div>
+				<div class="cards">
+					<i class="fa-brands fa-cc-visa"></i>
+					<i class="fa-brands fa-cc-paypal"></i>
+					<i class="fa-brands fa-cc-mastercard"></i>
+
+				</div>
+				<div class="credits">
+					Дизайн d-e-n.ru
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+	<div class="md-modal md-effect-12">
+	    <div class="md-content overlay-menu">
+	        <img src="img/logo.png" alt="food">
+	        <button class="md-close"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M12.3499 9.99998L19.5166 2.84998C19.8304 2.53614 20.0067 2.11049 20.0067 1.66665C20.0067 1.22281 19.8304 0.797156 19.5166 0.483317C19.2027 0.169477 18.7771 -0.00683594 18.3332 -0.00683594C17.8894 -0.00683594 17.4637 0.169477 17.1499 0.483317L9.9999 7.64998L2.8499 0.483317C2.53606 0.169477 2.1104 -0.00683594 1.66656 -0.00683594C1.22273 -0.00683593 0.797071 0.169477 0.483232 0.483317C0.169392 0.797156 -0.00692129 1.22281 -0.00692129 1.66665C-0.00692129 2.11049 0.169392 2.53614 0.483232 2.84998L7.6499 9.99998L0.483232 17.15C0.327017 17.3049 0.203027 17.4893 0.118413 17.6924C0.0337985 17.8955 -0.00976562 18.1133 -0.00976562 18.3333C-0.00976562 18.5533 0.0337985 18.7712 0.118413 18.9743C0.203027 19.1774 0.327017 19.3617 0.483232 19.5166C0.63817 19.6729 0.822505 19.7969 1.0256 19.8815C1.2287 19.9661 1.44655 20.0096 1.66656 20.0096C1.88658 20.0096 2.10443 19.9661 2.30753 19.8815C2.51062 19.7969 2.69496 19.6729 2.8499 19.5166L9.9999 12.35L17.1499 19.5166C17.3048 19.6729 17.4892 19.7969 17.6923 19.8815C17.8954 19.9661 18.1132 20.0096 18.3332 20.0096C18.5533 20.0096 18.7711 19.9661 18.9742 19.8815C19.1773 19.7969 19.3616 19.6729 19.5166 19.5166C19.6728 19.3617 19.7968 19.1774 19.8814 18.9743C19.966 18.7712 20.0096 18.5533 20.0096 18.3333C20.0096 18.1133 19.966 17.8955 19.8814 17.6924C19.7968 17.4893 19.6728 17.3049 19.5166 17.15L12.3499 9.99998Z" fill="#B59571"/>
+	</svg></button>
+	        <div class="overlay-menu__content">
+	            <a href="#" class="overlay-menu__item">Меню</a>
+	            <a href="#" class="overlay-menu__item">Доставка</a>
+	            <a href="#" class="overlay-menu__item">Оплата</a>
+	            
+	            <button class="btn btn-reserv overlay-menu__btn">Бронь столика</button>
+	            <div class="overlay-menu__socials">
+	            	<a href="#" class="YouTube">
+						<i class="fa-brands fa-youtube"></i>
+					</a>
+					<a href="#" class="VK">
+						<i class="fa-brands fa-vk"></i>
+					</a>
+					<a href="#" class="Telegram">
+						<i class="fa-brands fa-telegram"></i>
+					</a>
+	            </div>
+	        </div>
+    	</div>
+	</div>
+
+	<div class="md-overlay"></div>
+
+	<div style="display: none;">
+	    <div class="box-modal" id="exampleModal">
+	        <div class="box-modal_close arcticmodal-close"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.3499 9.99998L19.5166 2.84998C19.8304 2.53614 20.0067 2.11049 20.0067 1.66665C20.0067 1.22281 19.8304 0.797156 19.5166 0.483317C19.2027 0.169477 18.7771 -0.00683594 18.3332 -0.00683594C17.8894 -0.00683594 17.4637 0.169477 17.1499 0.483317L9.9999 7.64998L2.8499 0.483317C2.53606 0.169477 2.1104 -0.00683594 1.66656 -0.00683594C1.22273 -0.00683593 0.797071 0.169477 0.483232 0.483317C0.169392 0.797156 -0.00692129 1.22281 -0.00692129 1.66665C-0.00692129 2.11049 0.169392 2.53614 0.483232 2.84998L7.6499 9.99998L0.483232 17.15C0.327017 17.3049 0.203027 17.4893 0.118413 17.6924C0.0337985 17.8955 -0.00976562 18.1133 -0.00976562 18.3333C-0.00976562 18.5533 0.0337985 18.7712 0.118413 18.9743C0.203027 19.1774 0.327017 19.3617 0.483232 19.5166C0.63817 19.6729 0.822505 19.7969 1.0256 19.8815C1.2287 19.9661 1.44655 20.0096 1.66656 20.0096C1.88658 20.0096 2.10443 19.9661 2.30753 19.8815C2.51062 19.7969 2.69496 19.6729 2.8499 19.5166L9.9999 12.35L17.1499 19.5166C17.3048 19.6729 17.4892 19.7969 17.6923 19.8815C17.8954 19.9661 18.1132 20.0096 18.3332 20.0096C18.5533 20.0096 18.7711 19.9661 18.9742 19.8815C19.1773 19.7969 19.3616 19.6729 19.5166 19.5166C19.6728 19.3617 19.7968 19.1774 19.8814 18.9743C19.966 18.7712 20.0096 18.5533 20.0096 18.3333C20.0096 18.1133 19.966 17.8955 19.8814 17.6924C19.7968 17.4893 19.6728 17.3049 19.5166 17.15L12.3499 9.99998Z" fill="#B59571"/>
+</svg></div>
+			<div class="modal-logo">
+				<img src="img/logo.png" alt="">
+			</div>
+	        <span class="modal-header">
+	        	Забронировать столик
+	        </span>
+        	<form action="#" class="form form-popup">
+				<input class="form__input" type="text" placeholder="Имя" name="name" required>
+				<input class="form__input" type="tel" placeholder="Телефон" name="telephone" required>
+				<div class="modal-wrapper">
+					<input class="form__another-input" type="number" placeholder="Гостей" name="guests" min="1" required>
+					<input class="form__another-input" type="text" placeholder="Время" onfocus="this.type='time'" onblur="this.type='text'" name="time" required>
+				</div>
+				<button class="send btn form-btn btn-reserv" type="submit">Забронировать</button>
+			</form>
+	    </div>
+    </div>
+
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- arcticModal -->
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/89ae7c3636.js" crossorigin="anonymous"></script>
+    
+
+	
+</body>
+</html>
